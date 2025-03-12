@@ -69,7 +69,7 @@ if ( isset( $_GET['elementor_library'] ) ) {
                                 <div class="social-item d-flex">
                                     <p class="share-text mr-10"><?php esc_html_e( 'Share:', 'laddo' ); ?></p>
                                     <div class="social-list d-flex justify-content-center">
-										<?php laddo_Theme_Helper()->social_share(); ?>
+										<?php Laddo_Theme_Helper()->social_share(); ?>
                                     </div>
                                 </div>
 								<?php

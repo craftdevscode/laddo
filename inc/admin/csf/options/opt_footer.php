@@ -20,7 +20,7 @@ CSF::createSection( $prefix, array(
 			'id'          => 'footer_el_layout',
 			'type'        => 'select',
 			'title'       => esc_html__('Select Style', 'laddo' ),
-			'options'     => laddo_Theme_Helper()->get_all_posts('footer'),
+			'options'     => Laddo_Theme_Helper()->get_all_posts('footer'),
 			'dependency'  => array('footer_type', '==', 'el-templates'),
 			'default'     => '',
 		),

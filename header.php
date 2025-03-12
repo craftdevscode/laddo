@@ -45,7 +45,7 @@ $menu_type_class = match ($menu_type) {
             <nav class="navbar navbar-1 navbar-expand-lg<?php echo esc_attr($menu_type_class) ?>">
                 <div class="container-fluid custom-container">
 
-                    <?php laddo_Theme_Helper()->logo(); ?>
+                    <?php Laddo_Theme_Helper()->logo(); ?>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryMenu" aria-expanded="false">
                         <span class="navbar-toggler-icon"></span>

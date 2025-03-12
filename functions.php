@@ -90,12 +90,12 @@ add_action( 'after_setup_theme', 'laddo_setup' );
  * Constants
  * Defining default asset paths
  */
-define( 'laddo_ROOT_DIR', get_template_directory() );
-define( 'laddo_DIR_CSS', get_template_directory_uri() . '/assets/css' );
-define( 'laddo_DIR_JS', get_template_directory_uri() . '/assets/js' );
-define( 'laddo_DIR_VEND', get_template_directory_uri() . '/assets/vendors' );
-define( 'laddo_DIR_IMG', get_template_directory_uri() . '/assets/img' );
-define( 'laddo_DIR_FONT', get_template_directory_uri() . '/assets/fonts' );
+define( 'BIOPRESS_ROOT_DIR', get_template_directory() );
+define( 'BIOPRESS_DIR_CSS', get_template_directory_uri() . '/assets/css' );
+define( 'BIOPRESS_DIR_JS', get_template_directory_uri() . '/assets/js' );
+define( 'BIOPRESS_DIR_VEND', get_template_directory_uri() . '/assets/vendors' );
+define( 'BIOPRESS_DIR_IMG', get_template_directory_uri() . '/assets/img' );
+define( 'BIOPRESS_DIR_FONT', get_template_directory_uri() . '/assets/fonts' );
 
 /**
  * Enqueue scripts and styles.

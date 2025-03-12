@@ -33,7 +33,7 @@ $blog_column = is_active_sidebar( 'sidebar_widgets' ) ? '8' : '12';
 							get_template_part( 'template-parts/contents/content', 'none' );
 						endif;
 
-						laddo_Theme_Helper()->pagination();
+						Laddo_Theme_Helper()->pagination();
 						?>
 
                     </div>

@@ -25,7 +25,7 @@ CSF::createSection( $prefix, array(
 			'add_title' => esc_html__( 'Upload', 'laddo' ),
 			'desc'      => esc_html__( 'Upload logo for Header', 'laddo' ),
 			'default'   => [
-				'url' => laddo_DIR_IMG . '/logo/logo-dark.svg'
+				'url' => BIOPRESS_DIR_IMG . '/logo/logo-dark.svg'
 			]
 		),
 
@@ -36,7 +36,7 @@ CSF::createSection( $prefix, array(
 			'add_title' => esc_html__( 'Upload', 'laddo' ),
 			'desc'      => esc_html__( 'Upload your Retina Logo. This should be your Logo in double size (If your logo is 100 x 20px, it should be 200 x 40px)', 'laddo' ),
 			'default'   => [
-				'url' => laddo_DIR_IMG . '/logo/logo-dark.svg'
+				'url' => BIOPRESS_DIR_IMG . '/logo/logo-dark.svg'
 			]
 		),
 
@@ -47,7 +47,7 @@ CSF::createSection( $prefix, array(
 			'desc'      => esc_html__( 'Upload logo for Header Sticky', 'laddo' ),
 			'add_title' => esc_html__( 'Upload', 'laddo' ),
 			'default'   => [
-				'url' => laddo_DIR_IMG . '/logo/logo-dark.svg'
+				'url' => BIOPRESS_DIR_IMG . '/logo/logo-dark.svg'
 			]
 		),
 
@@ -58,7 +58,7 @@ CSF::createSection( $prefix, array(
 			'desc'      => esc_html__( 'Upload your Retina Logo. This should be your Logo in double size (If your logo is 100 x 20px, it should be 200 x 40px)', 'laddo' ),
 			'add_title' => esc_html__( 'Upload', 'laddo' ),
 			'default'   => [
-				'url' => laddo_DIR_IMG . '/logo/logo-dark.svg'
+				'url' => BIOPRESS_DIR_IMG . '/logo/logo-dark.svg'
 			]
 		),
 

@@ -11,7 +11,7 @@ if ( class_exists( 'CSF' ) ) {
 
 	// Create a metabox
 	CSF::createMetabox( $prefix, array(
-		'title'         => esc_html__( 'laddo:: Meta Options', 'laddo' ),
+		'title'         => esc_html__( 'Laddo:: Meta Options', 'laddo' ),
 		'post_type'     => ['page'],
 		'priority'      => 'high',
 		'show_restore'  => true,

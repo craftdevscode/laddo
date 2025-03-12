@@ -20,8 +20,8 @@ $blog_continue_read   = laddo_opt( 'blog_continue_read', esc_html__( 'Read More'
             <div class="d-flex align-items-center gap-3 flex-wrap mb-4">
                 <p class="text-black ff-heading mb-0"><?php the_time(get_option( 'date_format' )); ?></p>
                 <span class="text-black fs-20">/</span>
-                <a href="<?php echo laddo_Theme_Helper()->first_taxonomy_link(); ?>" class="text-decoration-none text-black ff-heading mb-0">
-                    <?php echo laddo_Theme_Helper()->first_taxonomy() ?>
+                <a href="<?php echo Laddo_Theme_Helper()->first_taxonomy_link(); ?>" class="text-decoration-none text-black ff-heading mb-0">
+                    <?php echo Laddo_Theme_Helper()->first_taxonomy() ?>
                 </a>
             </div>
 

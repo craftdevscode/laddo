@@ -8,13 +8,13 @@
  * @since 1.0.0
  */
 
-if (!class_exists('laddo_Walker_Comment')) {
+if (!class_exists('Laddo_Walker_Comment')) {
 
 	/**
 	 * CUSTOM COMMENT WALKER
 	 * A custom walker for comments, based on the walker in Twenty Nineteen.
 	 */
-	class laddo_Walker_Comment extends Walker_Comment
+	class Laddo_Walker_Comment extends Walker_Comment
 	{
 
 		/**

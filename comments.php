@@ -31,7 +31,7 @@ $is_comments = have_comments() ? 'have_comments' : 'no_comments';
 				array(
 					'style'      => 'ul',
 					'short_ping' => true,
-					'walker'     => new laddo_Walker_Comment,
+					'walker'     => new Laddo_Walker_Comment,
 				)
 			);
 			the_comments_navigation();

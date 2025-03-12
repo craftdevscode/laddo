@@ -6,9 +6,9 @@ if (!defined('ABSPATH')) {
 /**
  * Plugin installation and activation for WordPress themes
  */
-if ( !class_exists('laddo_Tgm_Plugin_Register') ) {
+if ( !class_exists('Laddo_Tgm_Plugin_Register') ) {
 
-    class laddo_Tgm_Plugin_Register
+    class Laddo_Tgm_Plugin_Register
     {
 
         public function __construct()
@@ -37,7 +37,7 @@ if ( !class_exists('laddo_Tgm_Plugin_Register') ) {
                 ),
 
                 array(
-                    'name' => esc_html__('laddo Core', 'laddo'), // The plugin name.
+                    'name' => esc_html__('Laddo Core', 'laddo'), // The plugin name.
                     'slug' => 'laddo-core', // The plugin slug (typically the folder name).
                     //'source' => 'https://wordpress-theme.spider-themes.net/resources/laddo/laddo-core.zip', // The plugin source.
                     'required' => true, // If false, the plugin is only 'recommended' instead of required.
@@ -70,5 +70,5 @@ if ( !class_exists('laddo_Tgm_Plugin_Register') ) {
 
     }
 
-    new laddo_Tgm_Plugin_Register;
+    new Laddo_Tgm_Plugin_Register;
 }

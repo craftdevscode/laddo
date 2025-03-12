@@ -1,13 +1,13 @@
 <?php
 /**
- * laddo theme helper functions and resources
+ * Laddo theme helper functions and resources
  */
 
-class laddo_Theme_Helper {
+class Laddo_Theme_Helper {
 
 	/**
-	 * Hold an instance of laddo_Theme_Helper_Class class.
-	 * @var laddo_Theme_Helper
+	 * Hold an instance of Laddo_Theme_Helper_Class class.
+	 * @var Laddo_Theme_Helper
 	 */
 	protected static $instance = null;
 
@@ -20,13 +20,13 @@ class laddo_Theme_Helper {
 	}
 
 	/**
-	 * Main laddo_Theme_Helper_Class instance.
-	 * @return laddo_Theme_Helper - Main instance.
+	 * Main Laddo_Theme_Helper_Class instance.
+	 * @return Laddo_Theme_Helper - Main instance.
 	 */
 	public static function instance() {
 
 		if ( null == self::$instance ) {
-			self::$instance = new laddo_Theme_Helper();
+			self::$instance = new Laddo_Theme_Helper();
 		}
 
 		return self::$instance;
@@ -291,8 +291,8 @@ class laddo_Theme_Helper {
 
 
 /**
- * Instance of laddo_Theme_Helper class
+ * Instance of Laddo_Theme_Helper class
  */
-function laddo_Theme_Helper() {
-	return laddo_Theme_Helper::instance();
+function Laddo_Theme_Helper() {
+	return Laddo_Theme_Helper::instance();
 }

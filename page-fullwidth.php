@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: laddo Fullwidth
+ * Template Name: Laddo Fullwidth
  */
 
 get_header();
