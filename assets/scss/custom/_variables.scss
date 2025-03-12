@@ -1,0 +1,10 @@
+:root {
+
+  /*Color Variables*/
+  --brand_color: var(--brand_color_opt, #FA4729); /*Theme Brand Color*/
+  --h_color: var(--heading_color_opt, #121212);
+  --body_color: var(--paragraph_color_opt, #121212); /*Theme Paragraph Color*/
+
+  /*font Variables*/
+  --inter: "Inter", sans-serif
+}
