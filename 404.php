@@ -16,15 +16,15 @@ $btn_title  = laddo_opt('error_btn_title', esc_html__( 'Back to Home Page', 'lad
         <div class="container">
             <div class="error_content_two text-center">
                 <div class="error_img">
-                    <img class="position-absolute error_shap" src="<?php echo BIOPRESS_DIR_IMG . '/404/404_bg.png' ?>" alt="<?php esc_attr_e('background shape', 'laddo'); ?>">
+                    <img class="position-absolute error_shap" src="<?php echo LADDO_DIR_IMG . '/404/404_bg.png' ?>" alt="<?php esc_attr_e('background shape', 'laddo'); ?>">
                     <div class="one wow clipInDown" data-wow-delay="1s">
-                        <img class="img_one" src="<?php echo BIOPRESS_DIR_IMG . '/404/404_two.png' ?>" alt="<?php esc_attr_e('error image', 'laddo'); ?>">
+                        <img class="img_one" src="<?php echo LADDO_DIR_IMG . '/404/404_two.png' ?>" alt="<?php esc_attr_e('error image', 'laddo'); ?>">
                     </div>
                     <div class="two wow clipInDown" data-wow-delay="1.5s">
-                        <img class="img_two" src="<?php echo BIOPRESS_DIR_IMG . '/404/404_three.png' ?>" alt="<?php esc_attr_e('error image', 'laddo'); ?>">
+                        <img class="img_two" src="<?php echo LADDO_DIR_IMG . '/404/404_three.png' ?>" alt="<?php esc_attr_e('error image', 'laddo'); ?>">
                     </div>
                     <div class="three wow clipInDown" data-wow-delay="1.8s">
-                        <img class="img_three" src="<?php echo BIOPRESS_DIR_IMG . '/404/404_one.png' ?>" alt="<?php esc_attr_e('error image', 'laddo'); ?>">
+                        <img class="img_three" src="<?php echo LADDO_DIR_IMG . '/404/404_one.png' ?>" alt="<?php esc_attr_e('error image', 'laddo'); ?>">
                     </div>
                 </div>
                 <h2><?php echo esc_html($title) ?></h2>

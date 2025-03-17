@@ -68,7 +68,7 @@ class Init {
      * @access public
      */
     public function enqueue_script(): void {
-        require_once BIOPRESS_ROOT_DIR . '/inc/classes/Assets.php';
+        require_once LADDO_ROOT_DIR . '/inc/classes/Assets.php';
         new Assets();
     }
 
@@ -79,7 +79,7 @@ class Init {
      * @access public
      */
     public function theme_helper(): void {
-        require_once BIOPRESS_ROOT_DIR . '/inc/classes/Theme_Helper.php';
+        require_once LADDO_ROOT_DIR . '/inc/classes/Theme_Helper.php';
     }
 
 	/**
@@ -88,7 +88,7 @@ class Init {
 	 * @access public
 	 */
 	public function walker_comment(): void {
-		require_once BIOPRESS_ROOT_DIR . '/inc/classes/Walker_Comment.php';
+		require_once LADDO_ROOT_DIR . '/inc/classes/Walker_Comment.php';
 	}
 
 	/**
@@ -97,7 +97,7 @@ class Init {
 	 * @access public
 	 */
 	public function filter_action(): void {
-		require_once BIOPRESS_ROOT_DIR . '/inc/classes/Filters.php';
+		require_once LADDO_ROOT_DIR . '/inc/classes/Filters.php';
 	}
 
     /**
@@ -106,7 +106,7 @@ class Init {
      * @access public
      */
     public function nav_walker_menu(): void {
-        require_once BIOPRESS_ROOT_DIR . '/inc/classes/Nav_Walker.php';
+        require_once LADDO_ROOT_DIR . '/inc/classes/Nav_Walker.php';
     }
 
 	public function helper_functions(): void
@@ -122,16 +122,16 @@ class Init {
     public function theme_option(): void {
 
         //Theme Settings
-        require_once BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt-config.php';
+        require_once LADDO_ROOT_DIR . '/inc/admin/csf/options/opt-config.php';
 
         //Page Meta
-        require_once BIOPRESS_ROOT_DIR . '/inc/admin/csf/meta/meta-config.php';
+        require_once LADDO_ROOT_DIR . '/inc/admin/csf/meta/meta-config.php';
     }
 
     public function tgm_register(): void {
-        require_once BIOPRESS_ROOT_DIR . '/inc/tgm/class-tgm-plugin-activation.php';
-        require_once BIOPRESS_ROOT_DIR . '/inc/tgm/class-plugins.php';
-        require_once BIOPRESS_ROOT_DIR . '/inc/tgm/plugin-registration.php';
+        require_once LADDO_ROOT_DIR . '/inc/tgm/class-tgm-plugin-activation.php';
+        require_once LADDO_ROOT_DIR . '/inc/tgm/class-plugins.php';
+        require_once LADDO_ROOT_DIR . '/inc/tgm/plugin-registration.php';
     }
 
     public function demo_config(): void

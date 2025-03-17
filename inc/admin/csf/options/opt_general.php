@@ -54,7 +54,7 @@ CSF::createSection( $prefix, array(
 			'title'   => esc_html__( 'Logo', 'laddo' ),
 			'desc'    => esc_html__('Upload logo for Preloader', 'laddo'),
 			'default' => [
-				'url' => BIOPRESS_DIR_IMG . '/logo/logo-dark.svg'
+				'url' => LADDO_DIR_IMG . '/logo/logo-dark.svg'
 			],
 			'dependency' => array('is_preloader', '==', '1')
 		),

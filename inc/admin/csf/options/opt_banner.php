@@ -19,7 +19,7 @@ CSF::createSection( $prefix, array(
 			'title'     => esc_html__( 'Background Image', 'laddo' ),
 			'add_title' => esc_html__( 'Upload', 'laddo' ),
 			'default'   => [
-				'url'   => BIOPRESS_DIR_IMG . '/breadcrumb.webp',
+				'url'   => LADDO_DIR_IMG . '/breadcrumb.webp',
 			],
 			'dependency' => array('is_page_banner', '==', '1' )
 		),

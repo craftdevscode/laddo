@@ -17,15 +17,15 @@ if ( class_exists( 'CSF' ) ) {
 		'sticky_header'   => 'true',
 	) );
 
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_general.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_banner.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_header.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_footer.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_menu.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_blog.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_typography.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_color_scheme.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_404.php';
-	include BIOPRESS_ROOT_DIR . '/inc/admin/csf/options/opt_backup.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_general.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_banner.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_header.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_footer.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_menu.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_blog.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_typography.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_color_scheme.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_404.php';
+	include LADDO_ROOT_DIR . '/inc/admin/csf/options/opt_backup.php';
 
 }
